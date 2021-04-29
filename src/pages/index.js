@@ -3,7 +3,10 @@ import React from "react"
 export default function Home() {
   return (
     <div>
-      <h1>Bengali</h1>
+      <h6>
+        Lorem ipsum is placeholder text commonly used in the graphic, print, and
+        publishing industries for previewing layouts and visual mockups.
+      </h6>
     </div>
   )
 }
