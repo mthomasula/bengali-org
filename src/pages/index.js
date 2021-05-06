@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import HomepageCarousel from "../components/Homepage/carousel";
 
 export default function Home() {
   return (
@@ -9,10 +9,7 @@ export default function Home() {
       <Layout>
         <section>
           <div>
-            <h6>
-              Lorem ipsum is placeholder text commonly used in the graphic, print, and
-              publishing industries for previewing layouts and visual mockups.
-            </h6>
+          <HomepageCarousel/>
           </div>
         </section>
       </Layout>
