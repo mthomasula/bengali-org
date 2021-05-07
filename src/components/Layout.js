@@ -7,13 +7,12 @@ import { Container} from 'react-bootstrap';
 export default function Layout({ children }) {
     return (
         <div>
-        <Nav />
-        <Container>
+            <Nav />
+            {/* <Container> */}
                 <div className="content">
                     { children }
                 </div>
-            
-        </Container>
+            {/* </Container> */}
         </div>
     )
 }

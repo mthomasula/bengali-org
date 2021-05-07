@@ -5,7 +5,7 @@ import { Navbar } from 'react-bootstrap'
 export default function Nav() {
     return (
         <header>
-            <Navbar bg="dark">
+            <Navbar fixed="top" bg="light">
                 <Navbar.Brand href="/">Bengali Community</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
