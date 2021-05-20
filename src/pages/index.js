@@ -7,11 +7,11 @@ export default function Home() {
   return (
     
       <Layout>
-        <section>
+       
           <div>
           <HomepageCarousel/>
           </div>
-        </section>
+       
       </Layout>
    
   )

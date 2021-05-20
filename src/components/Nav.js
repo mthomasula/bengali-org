@@ -1,11 +1,28 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import { useState } from 'react';
 import { Navbar } from 'react-bootstrap'
+import '../styles/Nav.css'
+
+
 
 export default function Nav() {
+    const [navBar, setNavBar] = useState(false);
+
+
+    const navBarEffect = () => {
+        if (window.scrollY >= 10) {
+            setNavBar(true);
+        } else {
+            setNavBar(false);
+        }
+    };
+
+    window.addEventListener('scroll', navBarEffect);
+
     return (
         <header>
-            <Navbar fixed="top" bg="light">
+            <Navbar className={navBar ? 'navigation active' : 'navigation'} fixed="top">
                 <Navbar.Brand href="/">Bengali Community</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>

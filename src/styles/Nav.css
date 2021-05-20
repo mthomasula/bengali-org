@@ -1,0 +1,7 @@
+.navigation {
+    font-family: cursive;
+}
+
+.navigation.active {
+    background : linear-gradient(135deg, orange 60%, cyan)
+}
