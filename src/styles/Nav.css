@@ -1,7 +1,11 @@
 .navigation {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navigation.active {
-    background : linear-gradient(135deg, orange 60%, cyan)
+    background : linear-gradient(135deg, orange 60%, cyan);
+}
+
+.nav-link {
+    color:rgb(231, 67, 182);
 }

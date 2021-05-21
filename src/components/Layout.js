@@ -2,17 +2,22 @@ import React from 'react'
 import Nav from './Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container} from 'react-bootstrap';
+import '../styles/Layout.css';
 
 
 export default function Layout({ children }) {
     return (
         <div>
-            <Nav />
-            {/* <Container> */}
+            <div className="navv">
+                <Nav />
+            </div>
                 <div className="content">
                     { children }
                 </div>
-            {/* </Container> */}
+                <div className="footer">
+                    <p>Footer</p>
+                </div>
+           
         </div>
     )
 }

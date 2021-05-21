@@ -11,7 +11,7 @@ export default function Nav() {
 
 
     const navBarEffect = () => {
-        if (window.scrollY >= 10) {
+        if (window.scrollY >= 8) {
             setNavBar(true);
         } else {
             setNavBar(false);
