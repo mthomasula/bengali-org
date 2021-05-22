@@ -8,16 +8,13 @@ import '../styles/Layout.css';
 export default function Layout({ children }) {
     return (
         <div>
-            <div className="navv">
-                <Nav />
+            <Nav />
+            <div className="content">
+                { children }
             </div>
-                <div className="content">
-                    { children }
-                </div>
-                <div className="footer">
-                    <p>Footer</p>
-                </div>
-           
+            <div className="footer">
+                <p>Footer</p>
+            </div>
         </div>
     )
 }

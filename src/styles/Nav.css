@@ -3,7 +3,8 @@
 }
 
 .navigation.active {
-    background : linear-gradient(135deg, orange 60%, cyan);
+    background : linear-gradient(135deg, rgb(255, 196, 0) 60%, rgb(253, 239, 39));
+    
 }
 
 .nav-link {
