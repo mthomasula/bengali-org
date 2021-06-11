@@ -1,13 +1,11 @@
 .first-section {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .first-section-header {
-    padding-top: 45px;
-    
-    
+  padding-top: 45px;
 }
