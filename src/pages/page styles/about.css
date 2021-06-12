@@ -1,4 +1,12 @@
-.container {
+.wrapper {
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 70px;
+  display: grid;
+}
+
+.wrapper > div {
+  justify-content: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 30%;
+  background-color: rgb(244, 244, 244);
 }

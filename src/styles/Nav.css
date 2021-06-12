@@ -3,12 +3,16 @@
 }
 
 .navigation.active {
-  background: linear-gradient(135deg, rgb(255, 187, 0) 60%, rgb(253, 239, 39));
+  background: linear-gradient(
+    135deg,
+    rgb(203, 203, 203) 60%,
+    rgb(206, 206, 206)
+  );
 }
 
 .nav-link {
   /* color:rgb(231, 67, 182); */
-  color: rgb(177, 16, 218);
+  color: rgb(0, 0, 0);
 }
 
 .nav-link:hover {

@@ -1,9 +1,12 @@
 .container {
   display: grid;
-  grid-row-gap: 20px;
+  grid-template-columns: 60% 40%;
+  grid-auto-rows: minmax(30px, auto);
+  background-color: rgb(249, 249, 249);
 }
 
-.container > div {
-  background-color: rgb(187, 245, 140);
+.card-padding {
   padding: 1em;
+  /* background-color: aquamarine; */
+  grid-auto-rows: 60em;
 }
