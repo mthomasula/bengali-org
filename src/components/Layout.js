@@ -1,7 +1,7 @@
 import React from "react"
 import Nav from "./Nav"
+import Footer from "./Footer"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Container } from "react-bootstrap"
 import "../styles/Layout.css"
 
 export default function Layout({ children }) {
@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       <Nav />
       <div className="content">{children}</div>
       <div className="footer">
-        <p>Footer</p>
+        <Footer />
       </div>
     </div>
   )

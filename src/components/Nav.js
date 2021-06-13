@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import { useState } from "react"
 import { Navbar } from "react-bootstrap"
+import Button from "react-bootstrap/Button"
 import "../styles/Nav.css"
 
 export default function Nav() {
@@ -28,16 +29,16 @@ export default function Nav() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
           <Link to="/" className="nav-link">
-            Home
+            <Button variant="outline-light">Home</Button>
           </Link>
           <Link to="/about" className="nav-link">
-            Our Story
+            <Button variant="outline-light">Our Story</Button>
           </Link>
           <Link to="/services" className="nav-link">
-            Services
+            <Button variant="outline-light">Services</Button>
           </Link>
           <Link to="/contact" className="nav-link">
-            Contact Us
+            <Button variant="outline-light">Contact Us</Button>
           </Link>
         </Navbar>
       </container>
