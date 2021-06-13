@@ -5,8 +5,8 @@
 .navigation.active {
   background: linear-gradient(
     135deg,
-    rgb(203, 203, 203) 60%,
-    rgb(206, 206, 206)
+    rgb(108, 108, 108) 60%,
+    rgb(130, 130, 130)
   );
 }
 
